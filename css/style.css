@@ -254,9 +254,14 @@ ul{
 }
 .step__list-item{
   counter-increment: number;
+  margin-bottom: 30px;
 }
 .step__list-item::before{
   content: '0' counter(number);
+  color: #868585;
+}
+.step__list-item:nth-child(n + 10)::before{
+  content: counter(number);
 }
 .step__list-title{
   margin-bottom: 2px;
