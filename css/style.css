@@ -137,6 +137,11 @@ ul{
 .info-tabs__items{
   margin-bottom: 120px;
 }
+.info-tabs__item{
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 40px;
+}
 .info-tabs__item--active{
   padding-bottom: 5px;
   border-bottom: 1px solid #303030;
